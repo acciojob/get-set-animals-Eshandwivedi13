@@ -1,6 +1,7 @@
 //complete this code
 class Animal {
-	#species
+	//NOTE : property name must not match getters and setters, so we always use #species -> it makes our property private
+	#species //creating it as private property
 	constructor(species){
 		this.#species = species;
 	}
